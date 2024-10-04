@@ -1,7 +1,7 @@
 class QuestionsController < ApplicationController
     def ask
   end
-end
+
 
 def answer
   @question = params[:question]
@@ -12,4 +12,5 @@ def answer
   else
     @answer = "I don't care, get dressed and go to work!"
   end
+end
 end
